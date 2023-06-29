@@ -39,11 +39,12 @@ h4 {
 
 .active {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .modal p {
+    color: black;
     text-align: center;
 }
