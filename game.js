@@ -200,10 +200,15 @@ console.log('lives',lives)
     starGame();
 }
 
-function showModal() { 
+function closeModal() { 
     modal.classList.remove('active')
     window.location.reload();
 }
+function resetRecord() {
+    localStorage.removeItem('recordTime');
+}
+
+
 
 function gameWin(){
     modal.classList.add('active');
