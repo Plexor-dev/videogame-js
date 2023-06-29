@@ -11,7 +11,7 @@ const maps=[];maps.push(`
   -XXXXXXXXX
   -XXXXXXXXX
   OXXXXXXXXX
-`);/*maps.push(`
+`);maps.push(`
   O--XXXXXXX
   X--XXXXXXX
   XX----XXXX
@@ -55,4 +55,4 @@ X---X-X--X
 X-XXX--X-X
 X--X--XO-X
 XX---XXXXX
-`)*/
+`)
