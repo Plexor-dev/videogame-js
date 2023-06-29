@@ -34,8 +34,8 @@ const maps=[];maps.push(`
   XX-----OXX
   XXXXXXXXXX
 `);maps.push(`
-  XXXXXXXXXX
-  XXXXXOXXXX
+  O--XXXXXXX
+  XX-XXXXXXX
   XX----XXXX
   XX-XX-XXXX
   XX-XX--XXX

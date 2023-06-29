@@ -148,10 +148,14 @@ function showTime(){
     spanTime.innerHTML = segundos.toFixed(2);
 }
 function showLevel(){
-    if(!level >0){
-        spanLevel.innerHTML = level + 1;
-    } else {
-        spanLevel.innerHTML = ` Game Over`
+    let newLevel = level + 1;
+    switch (newLevel) {
+      case 0:
+        spanLevel.innerHTML = 'Game Over';
+        break;
+      default:
+        spanLevel.innerHTML = newLevel;
+        break;
     }
 }
 
