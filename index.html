@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-container">    
+        <div id="active" class="modal">
+            <button onclick="showModal()">Volver a jugar ♻</button>
+            <p> <span id="spanResult"></span> </p>    
+        </div>
+            <canvas id="game">
+                
+            </canvas>
+        <div class="btns">
+            <button id="up">Arriba</button>
+            <button id="left">Izquierda</button>
+            <button id="right">Derecha</button>
+            <button id="down">Abajo</button>
+        </div>
+        <div class="messages"> 
+            <h4>Level:<span id="spanLevel">0</span></h4>
+            <p>Vidas: <span id="lives"></span></p>
+            <p>Tiempo:⏰ <span id="time">0</span></p>
+            <p>Record:⏰ <span id="spanRecord">0</span></p>
+            <p>Resultado: <span id="spanResult"></span> </p>
+        </div>
+    </div>
+    <script src="map.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
